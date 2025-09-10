@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(24, 21, 21);
+}
+
+.container{
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    height: 450px;
+    border-color: whitesmoke;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 3em;
+}
+
+.guess{
+    display: none;
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    letter-spacing: 25px;
+    margin-right: 0;
+}
+
+#attempt{
+    display: block;
+    margin: auto;
+    font-size: 2.5em;
+    letter-spacing: 25px;
+    width: 280px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: gray;
+    color: whitesmoke;
+}
+
+#gameStatus{
+    color: orange;
+    text-align: center;
+}
+
+.button{
+    display: none;
+    margin: auto;
+    background-color: orange;
+    border-color: black;
+    color: white;
+    font-size: 2.5em;
+    height: 80px;
+    width: 350px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover{
+    background-color: yellow;
+}
